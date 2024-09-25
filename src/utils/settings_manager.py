@@ -69,7 +69,7 @@ def update_llm_settings(
     update_env_variable("GRAPHRAG_API_BASE", llm_base_url, env_file)
     update_env_variable("GRAPHRAG_API_KEY", llm_api_key, env_file)
     update_env_variable("GRAPHRAG_LLM_MODEL", llm_model, env_file)
-    update_env_variable("GRAPHRAG_LLM_DEPLOYMENT", llm_deployment, env_file)
+    update_env_variable("GRAPHRAG_LLM_DEPLOYMENT_NAME", llm_deployment, env_file)
     update_env_variable(
         "GRAPHRAG_EMBEDDING_API_BASE", embeddings_base_url, env_file
     )
